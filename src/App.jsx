@@ -1,4 +1,3 @@
-// App.jsx
 import { useState, useEffect, useRef } from 'react'
 import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
