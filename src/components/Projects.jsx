@@ -1,13 +1,12 @@
 import { useState } from 'react';
-import img1 from '../assets/projects-images/1.png';
-import img2 from '../assets/projects-images/2.png';
+
 
 function Projects() {
   const [filter, setFilter] = useState('All');
 
   const projectImages = [
     {
-      src: img1,
+      src: 'src/assets/projects-images/1.png',
       alt: 'Project 1',
       category: 'Web',
       description: 'A responsive website project.',
